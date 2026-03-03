@@ -1,0 +1,47 @@
+{
+  "sequence_len": 10,
+  "feature_cols": [
+    "Temperature",
+    "Humidity",
+    "CO2",
+    "Occupancy",
+    "hour",
+    "day_of_week",
+    "minute"
+  ],
+  "target_col": "CO2",
+  "predict_steps": [
+    15,
+    45,
+    60
+  ],
+  "spike_threshold": 200,
+  "input_size": 7,
+  "hidden_size": 64,
+  "num_layers": 2,
+  "output_size": 3,
+  "feature_scaler_min": [
+    17.839095505610537,
+    35.29926729069127,
+    463.82467651783924,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ],
+  "feature_scaler_max": [
+    31.784795234048755,
+    73.36933083139465,
+    894.347240512829,
+    9.0,
+    23.0,
+    6.0,
+    0.0
+  ],
+  "target_scaler_min": [
+    463.82467651783924
+  ],
+  "target_scaler_max": [
+    894.347240512829
+  ]
+}
